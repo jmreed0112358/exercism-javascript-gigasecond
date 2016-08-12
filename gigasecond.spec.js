@@ -1,4 +1,6 @@
-var Gigasecond = require('./gigasecond');
+var Gigasecond = require('./gigasecond'),
+  NotImplementedException = require('./exceptions/NotImplementedException.js'),
+  InvalidParameterException = require('./exceptions/InvalidParameterException.js');
 
 describe('Gigasecond', function() {
 
@@ -32,5 +34,12 @@ describe('Gigasecond', function() {
       var gs = new Gigasecond('Foo Bar');
     }).toThrow(
       new InvalidParameterException('This function takes a Date object'));
+  });
+
+  it('throws InvalidParameterException when passed an invalid Date object.', function () {
+    expect(function() {
+      var gs = new Gigasecond(new Date(Date.UTC(10000000000000000, 10, 10)));
+    }).toThrow(
+      new InvalidParameterException('Invalid date'));
   });
 });
