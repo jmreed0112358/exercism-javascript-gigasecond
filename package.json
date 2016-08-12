@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jmreed0112358/exercism-javascript-gigasecond#readme",
   "dependencies": {
+    "moment": "^2.14.1",
     "validator": "^5.5.0"
   }
 }
