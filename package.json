@@ -1,0 +1,19 @@
+{
+  "name": "gigasecond",
+  "version": "0.0.1",
+  "description": "Exercism: Javascript solution for the gigasecond problem.",
+  "main": "gigasecond.js",
+  "scripts": {
+    "test": "jasmine-node gigasecond.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmreed0112358/exercism-javascript-gigasecond.git"
+  },
+  "author": "Jeremy M. Reed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmreed0112358/exercism-javascript-gigasecond/issues"
+  },
+  "homepage": "https://github.com/jmreed0112358/exercism-javascript-gigasecond#readme"
+}
