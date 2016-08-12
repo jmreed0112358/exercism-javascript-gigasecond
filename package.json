@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jmreed0112358/exercism-javascript-gigasecond/issues"
   },
-  "homepage": "https://github.com/jmreed0112358/exercism-javascript-gigasecond#readme"
+  "homepage": "https://github.com/jmreed0112358/exercism-javascript-gigasecond#readme",
+  "dependencies": {
+    "validator": "^5.5.0"
+  }
 }
